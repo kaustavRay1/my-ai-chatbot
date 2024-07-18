@@ -8,7 +8,7 @@ function App() {
   async function generateSolution() {
     console.log("loading..");
      const response= await axios({
-      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBJ818OEIcezhzOQ5gSRXC3uGmpQW43zro", 
+      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key= YOUR API KEY", 
       method:"post",
       data:{contents:[ 
         {parts :[
